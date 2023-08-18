@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bg_color {
+    background-color: #000;
+
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    max-width: 1140px;
+}
+
+.row {
+    margin-left: -12px;
+    margin-right: -12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.card {
+    width: 400px;
+    height: 230px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.card-p1 {
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.card-p2 {
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 214.286% */
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 214.286% */
+}
+
+.image-card {
+    display: inline-block;
+}
+
+.fd-col {
+    flex-direction: column;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.number {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.mx-0 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.main {
+    color: #0B132A;
+    text-align: center;
+    font-family: rubik;
+    font-size: 35px;
+    max-width: 447px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.main-para {
+    max-width: 555px;
+    color: #4F5665;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.slick-dots li.slick-active button:before {
+    width: 20px;
+    border-radius: 25px;
+    color: #F53838 !important;
+    font-size: large;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 10px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 20px;
+    content: ' ';
+    border: 25px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.prev {
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute ;
+    left: 88%;
+    transition: all .3s;
+}
+
+.prev:hover svg path {
+    fill: white;
+}
+
+.prev:hover {
+    background-color: #F53838;
+    border: transparent;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.next {
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    position: absolute;
+    right:2%;
+    height: 50px;
+    transition: all .3s;
+}
+
+.next:hover svg path {
+    fill: white;
+}
+
+.next:hover {
+    background-color: #F53838;
+    border: transparent;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -80px;
+    display: block;
+    width: 18%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.position-relative{
+    position: relative;
+}
